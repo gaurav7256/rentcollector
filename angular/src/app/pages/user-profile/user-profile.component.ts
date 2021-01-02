@@ -5,7 +5,7 @@ import { AuthenticationService, UserService, AlertService } from '../../_service
 import { User } from '../../_models';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
-import {  FileUploader, FileSelectDirective } from 'ng2-file-upload/ng2-file-upload';
+import {  FileUploader, FileSelectDirective } from 'ng2-file-upload';
 
 const URL = 'http://localhost:3000/users/profileupload';
 
